@@ -14,6 +14,16 @@
 				<a id = f><img id = fotos></a>
 			</div>
 			<div id = "conteudo">
+					<p class = contato> Moustache - Lavagem, Polimento e Cristaliza&ccedil;&atilde;o de Carros </p>
+					<p class = contato> Rua Jos&eacute; Tavares de Miranda 130 - Vila Pomp&eacute;ia </p>
+					<p class = contato> Hor&aacute;rio de Atendimento: Segunda a Sexta: 08h00 - 18h00 </p>
+					<p class = contato> Telefone: (11)36750125       		Celular: (11)954514100 </p>
+					<p class = contato> Email: claudio.valeije@gmail.com </p>
+					<script  src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+					<div id = "contorno">
+						<div id='gmap_canvas'></div>
+						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+						<script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(-23.5269729,-46.687932899999964),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.5269729,-46.687932899999964)});infowindow = new google.maps.InfoWindow({content:'<strong>Moustache</strong><br>Rua Jose Tavares 130 - Vila Pompeia, Sao Paulo - SP, 05026-060<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 			</div>
 			<footer>
 				<p id = endereco> </p>

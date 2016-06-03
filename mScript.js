@@ -15,6 +15,6 @@ function gerarBotoes(){
 	document.getElementById("contato").className = "botao"
 	document.getElementById("c").href="contato.html";
 	
-	document.getElementById("endereco").innerHTML =  "<p>R. José Taváres de Miranda, 130 - Vila Pompeia, São Paulo - SP, 05026-060 </p>";	
+	document.getElementById("endereco").innerHTML =  "<p>Rua Jos&eacute; Tavares de Miranda 130 - Vila Pomp&eacute;ia, S&atilde;o Paulo - SP, 05026-060 </p>";	
 }
 

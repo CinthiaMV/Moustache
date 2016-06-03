@@ -15,11 +15,13 @@ body{
 #conteudo{
 	background-color: white;
 	width:70%;
-	height:100%;
-    float:center;
+	height: 70%;
     padding:10px;
 	border: 1px dashed #000000;
 	box-shadow: 0px 5px 5px #888888;
+	text-align: left;
+	padding: 1% 1% 1% 5%;
+	overflow: auto;
 }
 
 #pipo{
@@ -30,4 +32,20 @@ body{
 
 .botao:hover{
 	opacity: 0.8;
+}
+
+.contato{
+	text-align: center;
+}
+
+#contorno{
+ overflow:hidden;
+ height:100%;
+ width:100%;
+ float:left;
+}
+
+#gmap_canvas{
+height: 300px;
+width:900px;
 }
