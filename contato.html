@@ -6,13 +6,16 @@
 	</head>
 	<body onload = "gerarBotoes()">
 		<center>
-			<div id="campoBotao">
-				<img id = pipo src="logo.png" alt="futura imagem"><br>
+			<div id="faixa"> </div>
+			<div class="campoBotao" id="botoes">
 				<a id = h><img id = home></a>
 				<a id = s><img id = servico></a>
 				<a id = c><img id = contato></a>
 				<a id = f><img id = fotos></a>
 			</div>
+			<div class="campoBotao">
+				<img id = pipo src="logo.png" alt="futura imagem"><br>
+			</div>	
 			<div id = "conteudo">
 					<p class = contato> Moustache - Lavagem, Polimento e Cristaliza&ccedil;&atilde;o de Carros </p>
 					<p class = contato> Rua Jos&eacute; Tavares de Miranda 130 - Vila Pomp&eacute;ia </p>
@@ -25,9 +28,12 @@
 						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
 						<script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(-23.5269729,-46.687932899999964),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.5269729,-46.687932899999964)});infowindow = new google.maps.InfoWindow({content:'<strong>Moustache</strong><br>Rua Jose Tavares 130 - Vila Pompeia, Sao Paulo - SP, 05026-060<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 			</div>
-			<footer>
-				<p id = endereco> </p>
-			</footer>
+			<div id = finalp>
+				<hr class = linhaf></hr>
+					<footer id = endereco>
+					</footer>
+				<hr class = linhaf></hr>
+			</div>
 		</center>
 	</body>
 </html>
